@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>知了课堂首页</title>
+</head>
+<body>
+    这是从模版中渲染的
+{#    {{ 用来存放变量 }}#}  <!--两个花括号是存放变量的-->
+{#    {% 用来执行函数或者逻辑代码 %}#}   <!--这边的话是存放执行函数，或是逻辑代码的-->
+    <p><a href="{{ url_for('login',ref='/',id='1') }}">登录</a></p>
+</body>
+</html>
